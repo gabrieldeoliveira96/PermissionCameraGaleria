@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/05/24 15:28:33.000.318,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/24 15:54:02.000.016,C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit1.pas</Transaction>
+    <Transaction>2020/05/24 15:54:02.000.016,C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.fmx=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit1.fmx</Transaction>
+    <Transaction>2020/05/24 15:54:05.000.474,C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Project2.dproj=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Project2.dproj</Transaction>
+    <Transaction>2020/05/24 15:58:57.000.798,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit1.pas=</Transaction>
+    <Transaction>2020/05/24 15:59:10.000.043,=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\Unit1.pas</Transaction>
+    <Transaction>2020/05/24 15:59:23.000.144,=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit2.pas</Transaction>
+    <Transaction>2020/05/24 15:59:36.000.949,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit2.pas=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\controll\controll.permission.pas</Transaction>
+    <Transaction>2020/05/24 15:59:48.000.738,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\Unit1.pas=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.pas</Transaction>
+    <Transaction>2020/05/24 15:59:48.000.738,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\Unit1.fmx=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.fmx</Transaction>
+    <Transaction>2020/05/24 16:00:21.000.430,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.principal=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.principal</Transaction>
+    <Transaction>2020/05/24 16:00:32.000.705,=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit2.pas</Transaction>
+    <Transaction>2020/05/24 16:00:39.000.172,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.main=</Transaction>
+    <Transaction>2020/05/24 16:00:52.000.807,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit2.pas=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\Unit2.pas</Transaction>
+    <Transaction>2020/05/24 16:00:52.000.807,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit2.fmx=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\Unit2.fmx</Transaction>
+    <Transaction>2020/05/24 16:01:29.000.803,=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit1.pas</Transaction>
+    <Transaction>2020/05/24 16:01:38.000.006,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit1.pas=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.principal.pas</Transaction>
+    <Transaction>2020/05/24 16:01:38.000.006,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Unit1.fmx=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\view.principal.fmx</Transaction>
+    <Transaction>2020/05/24 16:12:18.000.643,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\controll\controll.permission.pas=</Transaction>
+    <Transaction>2020/05/24 16:12:23.000.115,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\src\view\Unit2.pas=</Transaction>
+    <Transaction>2020/05/24 16:24:48.000.603,E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Project2.dproj=E:\Gabriel\DelphiNaVeia\Universidade Delphi\Camera_E_Galeria\Camera_Galeria.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PiOs iOSSimulator="iPhone5"/>
+		<NoProfile Android="LGH818d554ee08" Android64="LGH818d554ee08"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="src"/>
+    <File Path="src\view"/>
+    <File Path="src\view\view.principal.pas"/>
+    <File Path="src\view\view.principal.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

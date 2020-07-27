@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 673
+  ClientWidth = 542
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 56.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnCamera: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'C'#226'mera'
+    OnClick = btnCameraClick
+  end
+  object btnGaleria: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Galeria'
+    OnClick = btnGaleriaClick
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Top
+    Size.Width = 542.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 542.000000000000000000
+    Viewport.Height = 233.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 296.000000000000000000
+    Position.Y = 248.000000000000000000
+    TabOrder = 5
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object ActionList1: TActionList
+    Left = 368
+    Top = 168
+    object TakePhotoFromCameraAction1: TTakePhotoFromCameraAction
+      Category = 'Media Library'
+      OnDidFinishTaking = TakePhotoFromCameraAction1DidFinishTaking
+    end
+    object TakePhotoFromLibraryAction1: TTakePhotoFromLibraryAction
+      Category = 'Media Library'
+      OnDidFinishTaking = TakePhotoFromLibraryAction1DidFinishTaking
+    end
+  end
+end

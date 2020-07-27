@@ -1,0 +1,38 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 404
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 64.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Action = TakePhotoFromLibraryAction1
+    Enabled = True
+    ImageIndex = -1
+    Position.X = 136.000000000000000000
+    Position.Y = 360.000000000000000000
+    TabOrder = 2
+  end
+  object ActionList1: TActionList
+    Left = 160
+    Top = 280
+    object TakePhotoFromLibraryAction1: TTakePhotoFromLibraryAction
+      Category = 'Media Library'
+      Editable = True
+      OnDidFinishTaking = TakePhotoFromLibraryAction1DidFinishTaking
+    end
+  end
+end

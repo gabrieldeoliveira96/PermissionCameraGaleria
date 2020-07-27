@@ -1,0 +1,17 @@
+program Project2;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  controll.permission in 'src\controll\controll.permission.pas',
+  Unit2 in 'src\view\Unit2.pas' {Form2},
+  view.principal in 'src\view\view.principal.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

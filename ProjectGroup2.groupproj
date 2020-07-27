@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8801E0F7-17D8-47E3-B389-7168F9EFC021}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Camera_Galeria.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\exemplo\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Camera_Galeria">
+        <MSBuild Projects="Camera_Galeria.dproj"/>
+    </Target>
+    <Target Name="Camera_Galeria:Clean">
+        <MSBuild Projects="Camera_Galeria.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Camera_Galeria:Make">
+        <MSBuild Projects="Camera_Galeria.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project2">
+        <MSBuild Projects="..\exemplo\Project2.dproj"/>
+    </Target>
+    <Target Name="Project2:Clean">
+        <MSBuild Projects="..\exemplo\Project2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project2:Make">
+        <MSBuild Projects="..\exemplo\Project2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Camera_Galeria;Project2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Camera_Galeria:Clean;Project2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Camera_Galeria:Make;Project2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
